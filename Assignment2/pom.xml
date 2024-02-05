@@ -44,6 +44,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>CSC340.example.Assignment2.LukeLeongApplication</mainClass>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
